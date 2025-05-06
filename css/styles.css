@@ -250,10 +250,10 @@ button {
     align-items: flex-start;
     height: 100%;
     margin: 0 auto;
+    min-width: 288px;
 }
 
 .mobile-menu-nav {
-    /*margin-bottom: auto;*/
     width: 100%;
 }
 
@@ -265,9 +265,7 @@ button {
     padding: 0;
     margin: 0;
     list-style: none;
-    /*align-items: left;
-  justify-content: flex-start;*/
-}
+ }
 
 .mob-menu-link {
     display: block;
@@ -350,6 +348,7 @@ button {
 
 .mob-close-btn {
     background-color: rgba(231, 233, 252, 0.1);
+    border-radius: 100%;
 }
 
 @media screen and (min-width: 768px) {
